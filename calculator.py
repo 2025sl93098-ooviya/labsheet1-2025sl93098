@@ -1,2 +1,5 @@
-idef add(a,b):
-    return a-b #incorrect
+def add(a,b):
+    return a+b
+def multiply(a,b):
+    return a*b
+
