@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code from GitHub...'
-                git 'https://github.com/2025sl93098-ooviya/labsheet1-2025sl93098.git'
+                git branch: 'main', url: 'https://github.com/2025sl93098-ooviya/labsheet1-2025sl93098.git'
             }
         }
 
